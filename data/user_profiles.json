@@ -1,0 +1,770 @@
+{
+  "users": {
+    "Guest": {
+      "created_at": "2026-05-13 23:02"
+    },
+    "asha": {
+      "created_at": "2026-05-13 23:04"
+    },
+    "prapthi": {
+      "created_at": "2026-06-17 09:29"
+    },
+    "f098ff3869b645ad979b15cd587a5c91": {
+      "name": "neha",
+      "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "created_at": "2026-06-17 09:52"
+    },
+    "0e7055ce02be4a69a20470d290cc7b7d": {
+      "name": "prajnana",
+      "password_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "created_at": "2026-06-17 12:45"
+    }
+  },
+  "history": [
+    {
+      "user": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "03-01-04-02-02-01-24.wav",
+        "Duration": "4.02s",
+        "Energy": "0.0075",
+        "Voice variation": "0.0659",
+        "Zero-crossing rate": "0.2563"
+      },
+      "created_at": "2026-05-13 23:05",
+      "clinical_note": "he should consult professionals"
+    },
+    {
+      "user": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "Distressed"
+      ],
+      "recommendations": [
+        "Write down your thoughts in a journal to process your feelings."
+      ],
+      "details": {
+        "Input source": "Image OCR",
+        "Words": 71,
+        "Characters": 389
+      },
+      "created_at": "2026-05-13 23:08"
+    },
+    {
+      "user": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "03-01-08-02-02-02-24.wav",
+        "Duration": "2.83s",
+        "Energy": "0.0109",
+        "Voice variation": "0.0768",
+        "Zero-crossing rate": "0.2330"
+      },
+      "created_at": "2026-06-17 09:17"
+    },
+    {
+      "user": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "Moderate Stress",
+      "stress_level_num": 2,
+      "stress_score": 67,
+      "emotions": [
+        "Concerned / low mood"
+      ],
+      "recommendations": [
+        "Listen to calming music or nature sounds to relax."
+      ],
+      "details": {
+        "Input source": "Direct Text",
+        "Words": 3,
+        "Characters": 17
+      },
+      "created_at": "2026-06-17 09:19"
+    },
+    {
+      "user": "Guest",
+      "source": "Self Assessment",
+      "stress_level": "Moderate Stress",
+      "stress_level_num": 2,
+      "stress_score": 48,
+      "emotions": [
+        "Moderate perceived stress"
+      ],
+      "recommendations": [
+        "Try deep breathing exercises: inhale for 4 counts, hold for 4, exhale for 4."
+      ],
+      "details": {
+        "PSS-10 score": "19/40",
+        "Interpretation": "Moderate perceived stress"
+      },
+      "created_at": "2026-06-17 09:20"
+    },
+    {
+      "user": "prapthi",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "03-01-04-01-01-02-24.wav",
+        "Duration": "3.97s",
+        "Energy": "0.0139",
+        "Voice variation": "0.0939",
+        "Zero-crossing rate": "0.2534"
+      },
+      "created_at": "2026-06-17 09:30"
+    },
+    {
+      "user": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Write down your thoughts in a journal to process your feelings."
+      ],
+      "details": {
+        "Input": "03-01-08-02-02-02-24.wav",
+        "Duration": "2.83s",
+        "Energy": "0.0109",
+        "Voice variation": "0.0768",
+        "Zero-crossing rate": "0.2330"
+      },
+      "created_at": "2026-06-17 09:40"
+    },
+    {
+      "user": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "Distressed"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input source": "Direct Text",
+        "Words": 3,
+        "Characters": 14
+      },
+      "created_at": "2026-06-17 09:41"
+    },
+    {
+      "user": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "Distressed"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input source": "Image OCR",
+        "Words": 72,
+        "Characters": 401
+      },
+      "created_at": "2026-06-17 09:42"
+    },
+    {
+      "user_id": "f098ff3869b645ad979b15cd587a5c91",
+      "user_name": "neha",
+      "source": "Text Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Positive / calm"
+      ],
+      "recommendations": [
+        "Enjoy this stress-free moment."
+      ],
+      "details": {
+        "Input source": "Direct Text",
+        "Words": 3,
+        "Characters": 10
+      },
+      "created_at": "2026-06-17 09:53"
+    },
+    {
+      "user_id": "0e7055ce02be4a69a20470d290cc7b7d",
+      "user_name": "prajnana",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "03-01-05-01-02-01-24.wav",
+        "Duration": "2.11s",
+        "Energy": "0.0121",
+        "Voice variation": "0.0774",
+        "Zero-crossing rate": "0.1920"
+      },
+      "created_at": "2026-06-17 12:46"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "Enjoy this stress-free moment."
+      ],
+      "details": {
+        "Input": "03-01-05-01-02-02-24.wav",
+        "Duration": "3.18s",
+        "Energy": "0.0199",
+        "Voice variation": "0.1005",
+        "Zero-crossing rate": "0.2107"
+      },
+      "created_at": "2026-06-18 11:04"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "03-01-04-02-02-01-24.wav",
+        "Duration": "4.02s",
+        "Energy": "0.0075",
+        "Voice variation": "0.0659",
+        "Zero-crossing rate": "0.2563"
+      },
+      "created_at": "2026-06-18 11:09"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "You're doing great! Keep maintaining your positive habits."
+      ],
+      "details": {
+        "Input": "03-01-04-02-02-02-24.wav",
+        "Duration": "3.39s",
+        "Energy": "0.0115",
+        "Voice variation": "0.0760",
+        "Zero-crossing rate": "0.2747"
+      },
+      "created_at": "2026-06-18 11:30"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "Distressed"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input source": "Image OCR",
+        "Words": 72,
+        "Characters": 401
+      },
+      "created_at": "2026-06-18 11:30"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "You're doing great! Keep maintaining your positive habits."
+      ],
+      "details": {
+        "Input": "03-01-01-01-01-02-02.wav",
+        "Duration": "1.50s",
+        "Energy": "0.0220",
+        "Voice variation": "0.0849",
+        "Zero-crossing rate": "0.0573"
+      },
+      "created_at": "2026-11-13 12:15"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Write down your thoughts in a journal to process your feelings."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "11.17s",
+        "Energy": "0.0108",
+        "Voice variation": "0.0873",
+        "Zero-crossing rate": "0.1196"
+      },
+      "created_at": "2026-11-13 12:27"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "2.37s",
+        "Energy": "0.0307",
+        "Voice variation": "0.1041",
+        "Zero-crossing rate": "0.1106"
+      },
+      "created_at": "2026-11-13 12:27"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "3.62s",
+        "Energy": "0.0267",
+        "Voice variation": "0.0893",
+        "Zero-crossing rate": "0.1008"
+      },
+      "created_at": "2026-11-13 12:27"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "3.07s",
+        "Energy": "0.0122",
+        "Voice variation": "0.0830",
+        "Zero-crossing rate": "0.1090"
+      },
+      "created_at": "2026-11-13 12:28"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "Enjoy this stress-free moment."
+      ],
+      "details": {
+        "Input": "03-01-01-01-01-02-24.wav",
+        "Duration": "1.61s",
+        "Energy": "0.0220",
+        "Voice variation": "0.0839",
+        "Zero-crossing rate": "0.0607"
+      },
+      "created_at": "2026-11-13 12:29"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "Stay mindful and continue what works for you."
+      ],
+      "details": {
+        "Input": "03-01-02-01-01-01-24.wav",
+        "Duration": "1.58s",
+        "Energy": "0.0259",
+        "Voice variation": "0.0864",
+        "Zero-crossing rate": "0.0610"
+      },
+      "created_at": "2026-11-13 12:39"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "03-01-02-02-02-02-24.wav",
+        "Duration": "2.04s",
+        "Energy": "0.0308",
+        "Voice variation": "0.0767",
+        "Zero-crossing rate": "0.0729"
+      },
+      "created_at": "2026-11-13 12:39"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "Stay mindful and continue what works for you."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "5.76s",
+        "Energy": "0.0091",
+        "Voice variation": "0.0611",
+        "Zero-crossing rate": "0.1679"
+      },
+      "created_at": "2026-11-13 12:42"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "Moderate Stress",
+      "stress_level_num": 2,
+      "stress_score": 67,
+      "emotions": [
+        "Moderate stress indicators"
+      ],
+      "recommendations": [
+        "Listen to calming music or nature sounds to relax."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "3.71s",
+        "Energy": "0.0113",
+        "Voice variation": "0.0834",
+        "Zero-crossing rate": "0.1444"
+      },
+      "created_at": "2026-11-13 12:42"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "2.56s",
+        "Energy": "0.0225",
+        "Voice variation": "0.0977",
+        "Zero-crossing rate": "0.1400"
+      },
+      "created_at": "2026-11-13 12:43"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "Moderate Stress",
+      "stress_level_num": 2,
+      "stress_score": 67,
+      "emotions": [
+        "Moderate stress indicators"
+      ],
+      "recommendations": [
+        "Listen to calming music or nature sounds to relax."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "0.99s",
+        "Energy": "0.1210",
+        "Voice variation": "0.1096",
+        "Zero-crossing rate": "0.2400"
+      },
+      "created_at": "2026-11-13 13:12"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "Stay mindful and continue what works for you."
+      ],
+      "details": {
+        "Input": "03-01-01-01-01-02-24.wav",
+        "Duration": "1.61s",
+        "Energy": "0.0220",
+        "Voice variation": "0.0839",
+        "Zero-crossing rate": "0.0607"
+      },
+      "created_at": "2026-11-13 13:12"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "1.44s",
+        "Energy": "0.1459",
+        "Voice variation": "0.2275",
+        "Zero-crossing rate": "0.1926"
+      },
+      "created_at": "2026-11-13 13:13"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Consider professional support if needed."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "1.86s",
+        "Energy": "0.0173",
+        "Voice variation": "0.0759",
+        "Zero-crossing rate": "0.0982"
+      },
+      "created_at": "2026-11-13 13:13"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "No Stress",
+      "stress_level_num": 0,
+      "stress_score": 0,
+      "emotions": [
+        "Calm voice pattern"
+      ],
+      "recommendations": [
+        "You're doing great! Keep maintaining your positive habits."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "2.23s",
+        "Energy": "0.0069",
+        "Voice variation": "0.0499",
+        "Zero-crossing rate": "0.0630"
+      },
+      "created_at": "2026-11-13 13:13"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Write down your thoughts in a journal to process your feelings."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "3.87s",
+        "Energy": "0.0112",
+        "Voice variation": "0.0839",
+        "Zero-crossing rate": "0.0879"
+      },
+      "created_at": "2026-11-13 13:14"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Text Analysis",
+      "stress_level": "Mild Stress",
+      "stress_level_num": 1,
+      "stress_score": 33,
+      "emotions": [
+        "Neutral"
+      ],
+      "recommendations": [
+        "Take a short break to relax."
+      ],
+      "details": {
+        "Input source": "Direct Text",
+        "Words": 9,
+        "Characters": 33
+      },
+      "created_at": "2026-11-13 13:14"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "Moderate Stress",
+      "stress_level_num": 2,
+      "stress_score": 67,
+      "emotions": [
+        "Moderate stress indicators"
+      ],
+      "recommendations": [
+        "Try deep breathing exercises: inhale for 4 counts, hold for 4, exhale for 4."
+      ],
+      "details": {
+        "Input": "Microphone recording",
+        "Duration": "3.14s",
+        "Energy": "0.0074",
+        "Voice variation": "0.0662",
+        "Zero-crossing rate": "0.0676"
+      },
+      "created_at": "2026-11-13 14:53"
+    },
+    {
+      "user_id": "guest",
+      "user_name": "Guest",
+      "source": "Voice Analysis",
+      "stress_level": "High Stress",
+      "stress_level_num": 3,
+      "stress_score": 100,
+      "emotions": [
+        "High arousal / stress indicators"
+      ],
+      "recommendations": [
+        "Try guided meditation to calm your mind."
+      ],
+      "details": {
+        "Input": "03-01-08-01-02-01-24.wav",
+        "Duration": "1.33s",
+        "Energy": "0.0278",
+        "Voice variation": "0.0782",
+        "Zero-crossing rate": "0.0886"
+      },
+      "created_at": "2026-11-13 14:54"
+    }
+  ]
+}

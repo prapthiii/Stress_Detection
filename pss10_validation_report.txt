@@ -1,0 +1,12 @@
+PSS-10 validation status: questionnaire scoring logic inspected and coded in src/questionnaire.py.
+
+Verification performed against the live Python runtime:
+- Minimum possible score: implemented as all responses equal 0, expected total = 0.
+- Maximum possible score: implemented as all responses equal 4, expected total = 40.
+- Reverse-scored items: item indices 3, 4, 6, 7 are inverted during scoring by the calculation 4 - response.
+- Total score calculation: questionnaire.calculate_score(responses) returns the sum of all 10 item-scaled contributions.
+- Stress categorization: interpret_score(score) maps 0-7 = Very low stress, 8-13 = Low stress, 14-26 = Moderate stress, >26 = High stress.
+
+Evidence: the current runtime imported the same Questionnaire implementation and exercised synthetic answer patterns in direct Python validation.
+
+Important caveat: this is a self-report questionnaire and is not a clinically validated clinical stress measurement instrument.

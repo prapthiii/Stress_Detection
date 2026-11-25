@@ -1,0 +1,1 @@
+Text-only classification could not be quantitatively evaluated because the available RAVDESS dataset does not contain corresponding text samples with stress labels.

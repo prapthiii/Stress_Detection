@@ -1,0 +1,1 @@
+Multimodal fusion is implemented as a system capability, but it is not quantitatively validated because the repository does not contain paired labelled audio/text samples with common stress labels.

@@ -1,0 +1,11 @@
+librosa
+nltk
+scikit-learn
+pyaudio
+speechrecognition
+numpy
+pandas
+matplotlib
+streamlit
+pytesseract
+kaggle

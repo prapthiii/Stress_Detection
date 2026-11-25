@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "path": "ravdess-emotional-speech-audio",
+    "dataset_description": "RAVDESS speech subset, 1440 recordings",
+    "sampling_rate": 22050,
+    "emotion_to_stress": {
+      "neutral": 0,
+      "calm": 0,
+      "happy": 1,
+      "surprised": 1,
+      "sad": 2,
+      "angry": 3,
+      "fearful": 3,
+      "disgust": 3
+    },
+    "alternative_emotion_to_stress": {
+      "sad_to_mild": {
+        "neutral": 0,
+        "calm": 0,
+        "happy": 1,
+        "surprised": 1,
+        "sad": 1,
+        "angry": 3,
+        "fearful": 3,
+        "disgust": 3
+      },
+      "calm_to_mild": {
+        "neutral": 0,
+        "calm": 1,
+        "happy": 1,
+        "surprised": 1,
+        "sad": 2,
+        "angry": 3,
+        "fearful": 3,
+        "disgust": 3
+      },
+      "sad_and_calm_to_mild": {
+        "neutral": 0,
+        "calm": 1,
+        "happy": 1,
+        "surprised": 1,
+        "sad": 1,
+        "angry": 3,
+        "fearful": 3,
+        "disgust": 3
+      }
+    },
+    "stress_labels": {
+      "0": "No Stress",
+      "1": "Mild Stress",
+      "2": "Moderate Stress",
+      "3": "High Stress"
+    }
+  },
+  "feature_extraction": {
+    "segment_energy_coefficients": {
+      "features": 13,
+      "energy_feature": true,
+      "zcr_feature": true,
+      "total_dimensions": 15,
+      "windowing": "none",
+      "segments": 1,
+      "segment_length": "whole waveform after preprocessing",
+      "hop_size": "not applied",
+      "normalization": "per-waveform max absolute normalization before coefficient calculation",
+      "formula": "For each i in 0..12, coefficient_i = mean(audio[i::13]); energy = sum(audio^2)/len(audio); zcr = mean(abs(diff(sign(audio))))"
+    },
+    "standard_mfcc": {
+      "sampling_rate": 22050,
+      "number_of_mfccs": 13,
+      "n_fft": 2048,
+      "hop_length": 512,
+      "window_function": "hann",
+      "aggregation": "mean over time",
+      "library": "librosa.feature.mfcc"
+    }
+  },
+  "modeling": {
+    "random_state": 42,
+    "train_test_split": {
+      "test_size": 0.2,
+      "stratify": true
+    },
+    "random_forest": {
+      "n_estimators": 300,
+      "max_depth": 20,
+      "min_samples_split": 5,
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "random_forest_simple_ablation": {
+      "model_a": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_split": 2,
+        "class_weight": "balanced",
+        "random_state": 42
+      },
+      "model_b": {
+        "n_estimators": 300,
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "class_weight": "balanced",
+        "random_state": 42
+      }
+    },
+    "cross_validation": {
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 42
+    },
+    "seeds": [1, 10, 21, 42, 100],
+    "primary_protocol": "StratifiedGroupKFold grouped by actor",
+    "holdout_test_size": 0.2,
+    "statistical_bootstrap_replicates": 1000
+  },
+  "text_analysis": {
+    "library": "nltk.sentiment.SentimentIntensityAnalyzer\nVADER lexicon",
+    "feature_extraction": "compound sentiment score, word counts, average word length, type-token ratio, TF-IDF vector (max_features=10)",
+    "keyword_detection_impl": "exact token and phrase checks in app.py and src/feature_extraction.py",
+    "keyword_lists": {
+      "crisis": ["suicide", "die", "kill myself", "dont want to live", "don't want to live", "ending it", "no reason to live"],
+      "stress": ["stress", "stressed", "overwhelmed", "anxious", "anxiety", "worried", "tired", "exhausted", "pressure"]
+    },
+    "preprocessing": "text normalization with NLTK stop-word removal and lemmatization in src/preprocessing.py; direct NLTK sentiment scoring in src/feature_extraction.py"
+  },
+  "evaluation_status": {
+    "text_only": "Text-only classification could not be quantitatively evaluated because the available RAVDESS dataset does not contain corresponding text samples with stress labels.",
+    "multimodal": "Multimodal fusion is implemented as a system capability and is not quantitatively validated against a paired, labelled dataset in this repository."
+  }
+}
